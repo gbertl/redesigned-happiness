@@ -1,5 +1,11 @@
+import Header from '@/layouts/Header';
+
 const Home = () => {
-  return <h1 className="text-3xl text-red-500">Home</h1>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default Home;
